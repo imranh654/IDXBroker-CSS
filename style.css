@@ -1,0 +1,17 @@
+/*
+  Omnibar search form css
+*/
+
+.idx-omnibar-form input, input[type=text].idx-omnibar-input {
+    border: 1px solid #dce0e0;
+    border-radius: 4px 0 0 4px;
+    padding: 7px 12px;
+    height: 48px !important;
+}
+.idx-omnibar-form button {
+    height: 48px !important;
+    border-radius: 0px 4px 4px 0px;
+    background: #c5a95e;
+    color: #fff;
+    border: 0;
+}
