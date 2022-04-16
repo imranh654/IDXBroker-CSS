@@ -1,7 +1,6 @@
 /*
   Omnibar search form css
 */
-
 .idx-omnibar-form input, input[type=text].idx-omnibar-input {
     border: 1px solid #dce0e0;
     border-radius: 4px 0 0 4px;
@@ -14,4 +13,81 @@
     background: #c5a95e;
     color: #fff;
     border: 0;
+}
+
+
+
+/*
+  Impress Property Carousel image height.
+*/
+.impress-carousel-property .impress-carousel-photo img {
+    height:230px;
+}
+
+
+
+/*
+  IDXBroker other page color
+*/
+
+#IDX-detailsAddress {
+	font-weight: 500 !important;
+    color: #c5a95e !important;
+	    font-size: 27px !important;
+	    margin-bottom: 22px !important;
+}
+#IDX-detailsAddress a {
+	color: #000 !important;
+}
+
+
+.IDX-wrapper-standard .IDX-panel-default>.IDX-panel-heading {
+    color: #fff !important;
+    background-color: #c5a95e !important;
+    border-color: #c5a95e !important;
+}
+
+
+.IDX-wrapper-standard .IDX-btn-default {
+    color: #fff !important;
+    background-color: #252524 !important;
+}
+
+
+.IDX-wrapper-standard .IDX-resultsAddress a {
+    font-weight: 500 !important;
+    color: #c5a95e !important;
+	    font-size: 23px !important;
+}
+
+
+.IDX-wrapper-standard #IDX-saveSearch, .IDX-wrapper-standard #IDX-newSearch, .IDX-wrapper-standard #IDX-refineSearchFormToggle {
+    background-color: #252524 !important;
+    color: #fff !important;
+}
+
+
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-collapse, .IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default {
+	background-color: #252524 !important;
+}
+
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a, .IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li > a {
+	color:#fff !important;
+}
+
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li.IDX-active > a, .IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-navbar-default .IDX-navbar-nav > li > a:hover {
+	background:#c5a95e !important;
+}
+
+
+.IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-btn-primary:focus, .IDX-wrapper-standard .IDX-mobileFirst--neutral .IDX-btn-primary:hover, #IDX-formSubmit, #IDX-resultsRefineSubmit, .IDX-wrapper-standard .IDX-btn-default:active, .IDX-wrapper-standard .IDX-btn-default:focus, .IDX-wrapper-standard .IDX-btn-default:hover, #IDX-modifySearch, #IDX-submitBtn {
+	background:#c5a95e !important;
+    border-color: #c5a95e;
+	color: #fff !important;
+}
+
+.IDX-wrapper-standard #IDX-formReset:hover, .IDX-wrapper-standard #IDX-formReset:focus, #IDX-formReset {
+	background:#252524 !important;
+	border: 1px solid #252524 !important;
+    color: #fff !important;
 }
