@@ -1,0 +1,32 @@
+[id^=MBBv3]:not(#mbbV1) .btn.btn-outline-solid:hover, [id^=MBBv3]:not(#mbbV1) .btn.btn-outline-solid:not(:disabled):not(.disabled):active, [id^=MBBv3]:not(#mbbV1) .btn.btn-outline-solid:not(:disabled):not(.disabled).active {
+    color: #ffffff;
+    background-color: rgba(29,112,211,0.86);
+    border-color: rgba(29,112,211,0.86);
+}
+
+
+
+[id^=MBBv3]:not(#mbbV1) .btn.btn-outline-solid {
+    color: #fff;
+    background-color: #052A74;
+	    border: 0;
+	border-color: #052A74;
+}
+
+
+
+
+[id^=MBBv3]:not(#mbbV1) .btn.btn-primary {
+    color: #ffffff;
+    background-color: #052A74;
+    border-color: #052A74;
+}
+
+
+[id^=MBBv3]:not(#mbbV1) .btn.btn-primary:hover, [id^=MBBv3]:not(#mbbV1) .btn.btn-primary:not(:disabled):not(.disabled):active, [id^=MBBv3]:not(#mbbV1) .btn.btn-primary:not(:disabled):not(.disabled).active {
+    color: #ffffff;
+    background-color: rgba(29,112,211,0.86);
+    border-color: rgba(29,112,211,0.86);
+    box-shadow: none;
+    outline: none;
+}
