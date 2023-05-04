@@ -78,12 +78,67 @@
 
 
 
+
+
+
+
+
 /*
   Impress Property Carousel image height.
 */
 .impress-carousel-property .impress-carousel-photo img {
     height:230px;
+	border-radius:4px 4px 0 0;
 }
+
+.impress-carousel img {
+  margin-bottom: 0px !important;
+}
+
+.impress-carousel-photo {
+	position:relative;
+}
+
+.impress-carousel span.impress-price {
+    font-size: 24px;
+    margin-bottom: 0 !important;
+	position:absolute;
+	top:7px;
+	right:15px;
+	color:#fff;
+	text-shadow:1px 1px 0px #000;
+	font-size:16px !important;
+	font-weight:400;
+}
+
+.impress-carousel span.impress-street, .impress-carousel .impress-address span {
+    display: inline-block !important;
+	font-size:16px;
+	font-weight:400;
+}
+.impress-carousel .impress-address {
+	line-height:1.7em;
+	background:#fff;
+	margin:0;
+	padding:15px 15px 0 15px;
+}
+
+.impress-carousel .impress-beds-baths-sqft {
+	background:#fff;
+	margin:0;
+	padding:15px;
+	padding-top:5px;
+	padding-bottom:20px;
+	line-height:1.6em;
+	border-radius: 0 0 4px 4px;
+}
+.impress-carousel .impress-beds-baths-sqft span {
+	font-size:12px !important;
+}
+
+
+
+
 
 
 
