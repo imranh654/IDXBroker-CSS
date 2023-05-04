@@ -1,4 +1,65 @@
 /*
+  Omnibar search form extra field css
+*/
+
+
+.idx-omnibar-extra-form  .idx-omnibar-extra-button {
+	width: 18% !important;
+    /* float: left; */
+    margin: 0 !important;
+}
+
+
+.idx-omnibar-extra-form .awesomplete {
+	width:30% !important;
+	    float: left !important;
+}
+
+.idx-omnibar-extra-form .awesomplete input {
+	font-size:13px;
+}
+
+.idx-omnibar-extra-form .idx-omnibar-extra {
+	width:13% !important;
+	    float: left !important;
+	position:relative;
+}
+.idx-omnibar-extra-form .idx-omnibar-extra input {
+	border-radius:0;
+}
+
+.idx-omnibar-extra-form .idx-omnibar-extra label {
+	position: absolute;
+    font-size: 13px;
+    font-weight: 400;
+    color: #7f7f7f;
+    margin: 0;
+    padding: 0;
+    margin-left: 11px;
+    line-height: 1em;
+    margin-top: 9px;
+}
+
+.idx-omnibar-extra-form .idx-omnibar-extra input {
+	font-size: 13px;
+    padding-top: 24px;
+    padding-bottom: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
   Omnibar search form css
 */
 .idx-omnibar-form input, input[type=text].idx-omnibar-input {
