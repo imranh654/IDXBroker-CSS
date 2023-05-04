@@ -54,11 +54,6 @@
 
 
 
-
-
-
-
-
 /*
   Omnibar search form css
 */
@@ -86,6 +81,11 @@
 /*
   Impress Property Carousel image height.
 */
+
+.impress-carousel .owl-nav.owl-controls button.owl-next, .impress-carousel .owl-nav.owl-controls button.owl-prev {
+    background: #fff !important;
+}
+
 .impress-carousel-property .impress-carousel-photo img {
     height:230px;
 	border-radius:4px 4px 0 0;
