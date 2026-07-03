@@ -143,6 +143,85 @@
 
 
 /*
+  Impress Property Showcase Design.
+*/
+
+
+
+.impress-showcase-property .impress-showcase-photo img {
+    height:230px;
+	border-radius:4px 4px 0 0;
+}
+
+.impress-property-showcase img {
+  margin-bottom: 0px !important;
+}
+
+.impress-showcase-photo {
+	position:relative;
+}
+
+.impress-property-showcase span.impress-price {
+    font-size: 24px;
+    margin-bottom: 0 !important;
+	position:absolute;
+	bottom:75px;
+	right:15px;
+	color:#fff;
+	text-shadow:1px 1px 0px #000;
+	font-size:16px !important;
+	font-weight:400;
+}
+
+.impress-property-showcase span.impress-street, .impress-carousel .impress-address span {
+    display: inline-block !important;
+	font-size:16px;
+	font-weight:400;
+}
+.impress-property-showcase .impress-address {
+	line-height:1.7em;
+	background:#fff;
+	margin:0;
+	padding:15px 15px 0 15px;
+}
+
+.impress-property-showcase .impress-beds-baths-sqft {
+	background:#fff;
+	margin:0;
+	padding:15px;
+	padding-top:5px;
+	padding-bottom:20px;
+	line-height:1.6em;
+	border-radius: 0 0 4px 4px;
+}
+.impress-property-showcase .impress-beds-baths-sqft span {
+	font-size:12px !important;
+}
+
+
+.impress-property-showcase .impress-address,  .impress-property-showcase .impress-showcase-photo {
+	margin:0 !important;
+}
+
+.impress-showcase-property .impress-beds-baths-sqft span {
+    margin-right:5px;
+	  margin-left:0 !important
+}
+
+.impress-property-showcase.impress-row {
+	margin-bottom:30px
+}
+
+
+
+
+
+
+
+
+
+
+/*
   IDXBroker other page color
 */
 
