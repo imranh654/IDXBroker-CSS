@@ -89,6 +89,7 @@
 .impress-carousel-property .impress-carousel-photo img {
     height:230px;
 	border-radius:4px 4px 0 0;
+		object-fit:cover;
 }
 
 .impress-carousel img {
@@ -151,6 +152,7 @@
 .impress-showcase-property .impress-showcase-photo img {
     height:230px;
 	border-radius:4px 4px 0 0;
+		object-fit:cover;
 }
 
 .impress-property-showcase img {
