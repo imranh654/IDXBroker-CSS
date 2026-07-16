@@ -220,6 +220,92 @@
 
 
 
+/*
+	Map Search Page Design
+*/
+
+#IDX-main, #IDX-main label, .leaflet-container {
+    font-family: "Poppins", Sans-serif !important;
+}
+
+
+#prime-map-search--main-content-container .listing-card__core-fields {
+   font-size:14px;
+   line-height:1.2em;
+margin-bottom: 8px;
+}
+
+#prime-map-search--main-content-container .listing-card__core-fields span {
+   color: #656565;
+}
+
+#prime-map-search--main-content-container .listing-card__core-fields span:after {
+   color: #ccc;
+}
+
+
+#prime-map-search--main-content-container .listing-card__single-item.listing-card__address {
+   font-size:16px;
+   line-height:1.2em;
+}
+
+#prime-map-search--main-content-container .listing-card__courtesy {
+   line-height:1.8em;
+    margin-bottom: 8px;
+display:none;
+}
+
+#prime-map-search--main-content-container .listing-card__banner-info, #prime-map-search--main-content-container .listing-card__banner-info a, #prime-map-search--main-content-container .listing-card__banner-info span {
+   font-size:11px;
+}
+
+#prime-map-search--main-content-container .listing-card__prop-status {
+  line-height:1.2em;
+    padding: .6rem;
+font-weight: 400;
+    letter-spacing: 0;
+}
+
+#prime-map-search--main-content-container .listing-card__banner-info {
+   margin-top:7px;
+}
+
+#prime-map-search--main-content-container .listing-card__favorite {
+    top: 6px;
+}
+
+
+#prime-map-search--main-content-container .listing-card__image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+#prime-map-search--filter-bar__flyto {
+        border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#prime-map-search--filter-bar__flyto .vue-tags-input {
+   
+    background-color: transparent;
+
+}
+
+
+#prime-map-search--filter-bar__flyto  .ti-new-tag-input-wrapper {
+   margin-top:2px;
+}
+.idx-filter-button {
+    border-radius: 10px !important;
+}
+
+
+
+
+
 
 
 
